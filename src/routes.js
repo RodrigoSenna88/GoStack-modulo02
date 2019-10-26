@@ -8,6 +8,7 @@ routes.get('/', async (req, res) => {
     name: 'Rodrigo Senna',
     email: 'rodrigosennasantos@hotmail.com',
     password_hash: '1234567',
+    id: 1,
   });
 
   return res.json(user);
