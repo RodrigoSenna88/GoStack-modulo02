@@ -129,7 +129,7 @@ class AppointmentController {
     appointment.canceled_at = new Date();
 
     await appointment.save();
-    return res.json(appointment); 
+    return res.json(appointment);
   }
 }
 
